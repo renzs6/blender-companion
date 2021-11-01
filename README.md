@@ -10,7 +10,7 @@ Run setup build
 ## Run demo
 Spin up search engine server
 `./up_search_bing.sh`  
-!['Bing search engine'](assets/search_engine.png)
+!['Bing search engine'](assets/search_server.png)
 
 Run interactive demo
 `./run_demo.sh`  
