@@ -14,7 +14,7 @@ Spin up search engine server
 
 Run interactive demo
 `./run_demo.sh`  
-!['Interactive chat demo'](assets/interactive_demo.png)
+!['Interactive chat demo'](assets/demo.png)
 
 You may monitor the hardware usage i.e. CPU, Memory, Accelerators/GPU through `nvitop --monitor auto` or `nvidia-smi`  
 !['Monitor usage'](assets/monitor.png)
