@@ -87,6 +87,7 @@ def interactive(opt):
     # set up world logger
     world_logger = WorldLogger(opt) if opt.get('outfile') else None
     world = create_task(opt, [human_agent, agent])
+    """
 
     # Show some example dialogs:
     while not world.epoch_done():
@@ -96,6 +97,7 @@ def interactive(opt):
             if world_logger is not None:
                 world_logger.reset()
             continue
+        break
 
         if world_logger is not None:
             world_logger.log(world)
@@ -106,6 +108,7 @@ def interactive(opt):
     if world_logger is not None:
         # dump world acts to file
         world_logger.write(opt['outfile'], world, file_format=opt['save_format'])
+    """
 
 
 @register_script('interactive', aliases=['i'])
