@@ -2,14 +2,14 @@ tasks:
         default:
                 onboard_world: MessengerBotChatOnboardWorld
                 task_world: MessengerBotChatTaskWorld
-                timeout: 1800
+                timeout: 18000
                 agents_required: 1
 task_name: chatbot
 world_module: parlai.chat_service.tasks.chatbot.worlds
 overworld: MessengerOverworld
-max_workers: 30000
+max_workers: 300000
 opt:
-        debug: True
+        debug: False
         models:
                 blenderbot2_400M:
                         model: projects.blenderbot2.agents.blenderbot2:BlenderBot2FidAgent
